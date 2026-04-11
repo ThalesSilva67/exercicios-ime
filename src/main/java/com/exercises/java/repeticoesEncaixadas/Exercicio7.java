@@ -1,15 +1,16 @@
 package com.exercises.java.repeticoesEncaixadas;
 
 import java.util.Scanner;
-
+/*
+7. Dados um inteiro positivo n e uma seqüência de n inteiros positivos, determinar o máximo divisor comum a todos eles.
+ */
 public class Exercicio7 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.println("Digite o tamanho da sequencia");
         int n = Integer.parseInt(input.nextLine());
         System.out.println("Digite o primeiro numero da sequencia");
-        int num = Integer.parseInt(input.nextLine());
-        int mdc = num;
+        int mdc = Integer.parseInt(input.nextLine());
         int resto;
 
         for(int i = 1; i < n; i++){
